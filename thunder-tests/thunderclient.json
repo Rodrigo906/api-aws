@@ -1,0 +1,107 @@
+[
+  {
+    "_id": "2f92c5a4-70d8-43ec-add6-4adb889aa64f",
+    "colId": "1f89631d-3339-4c20-9df5-e802b81255d8",
+    "containerId": "",
+    "name": "Obtener usuarios",
+    "url": "https://h1zupkj7p6.execute-api.us-west-2.amazonaws.com/dev/users",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-05-31T18:25:02.080Z",
+    "modified": "2023-06-05T18:37:39.974Z",
+    "headers": [
+      {
+        "name": "access-token",
+        "value": "eyJraWQiOiIxbFp3dnFBS2paRFowTlpGNit3Z3NRUEFSbmJtZjRybzE2R0laVHRXNHVJPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIyNWM3MDk0NS03MWE0LTQyYzUtYWE2Mi1jZTRmMjcwZmZjN2QiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtd2VzdC0yLmFtYXpvbmF3cy5jb21cL3VzLXdlc3QtMl8wT3lMYmxIUmMiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiIxZW1zbDJsOG84NnFldnA5OXI0aWprcHZrNCIsImV2ZW50X2lkIjoiM2U0YTNjMDMtNTVlNi00ZjkxLWEzZGEtNDJmMzkwZWNhMDVhIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE2ODU5OTAwMzYsImV4cCI6MTY4NTk5MzYzNiwiaWF0IjoxNjg1OTkwMDM2LCJqdGkiOiIxZjAzODEwMi1hMTA4LTRhMWEtYTdjMS01ZGY1MWFhMjZmZGYiLCJ1c2VybmFtZSI6IjI1YzcwOTQ1LTcxYTQtNDJjNS1hYTYyLWNlNGYyNzBmZmM3ZCJ9.WxtpMrI25zfNW9SoBipvRCCYf-cyoLBZFuN2eFfZzdFS4NQD1u8OhkZCYXtXeAAfKPPkgHzcoFpaEg2JgUOnpLOPV7Ze09_IngyTpqzkQjVs20UdVyTEljmBU2KVA6hcVxyHIImj5H3yFF8aUscJRJy6T-GIwg1E9IZ6--jxdpQnmPxygaoRYXRaK2RUO9sb_ynJaLG3LTGp2WMhlWSRXx9CWaZ-Jl-LXrK0DChxOPcuhMS7VwrvH15YDMB5U9ebx8J1wy0NmusInpXvEvUoFumUt0AbOqPtt7_I3vg8lOL9sAXwrYY6OOHZ5yUmyxWCmIgHovAbALmUhgxOzS5V9w"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "40cebe1f-003f-4905-9216-02146976c074",
+    "colId": "1f89631d-3339-4c20-9df5-e802b81255d8",
+    "containerId": "",
+    "name": "Obtener usuario",
+    "url": "https://h1zupkj7p6.execute-api.us-west-2.amazonaws.com/dev/users/1",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-05-31T18:28:31.327Z",
+    "modified": "2023-06-01T15:18:39.955Z",
+    "headers": [
+      {
+        "name": "access-token",
+        "value": "eyJraWQiOiIxbFp3dnFBS2paRFowTlpGNit3Z3NRUEFSbmJtZjRybzE2R0laVHRXNHVJPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIyNWM3MDk0NS03MWE0LTQyYzUtYWE2Mi1jZTRmMjcwZmZjN2QiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtd2VzdC0yLmFtYXpvbmF3cy5jb21cL3VzLXdlc3QtMl8wT3lMYmxIUmMiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiIxZW1zbDJsOG84NnFldnA5OXI0aWprcHZrNCIsImV2ZW50X2lkIjoiMTlkYjhjOWItNGU2ZS00MTc3LWJhZWQtMDI1M2RmY2MxNmQ4IiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE2ODU2MzI2MDIsImV4cCI6MTY4NTYzNjIwMiwiaWF0IjoxNjg1NjMyNjAyLCJqdGkiOiJjMWNmYjQ5Yy1lNmZjLTQzMzctOTJiNi1hZWY3ZjYyMmM3OTIiLCJ1c2VybmFtZSI6IjI1YzcwOTQ1LTcxYTQtNDJjNS1hYTYyLWNlNGYyNzBmZmM3ZCJ9.uGcynFtOemooJmaAINEX0zDHQkfbnJR0rXxwf-wMh0Xz3WDXYoEeiiU8SjsMlzaJdJZu0YJOsQcO-ot5VKSpeBgVByJXM23PjZD_HkiEJ0iMtM868XagvZVVuenYsyJ1eRq33wi8ndAj5kCGMf9YkUS49cn8XiVcXGqVKN-GJbxC_o_scBK7rN3Xh55-6mLt99KEUlCtGdzNbrfzWnPm5Iyx4CbhlfuNX1aXTuI2l4ya2CfxAiny7M4cuWN3xgSCFjyRLa_M3walrQYGkz2q6ZCQPzMjcz1inorxZ2IpXReZEfB5nmrNX1F4SRqfKcAjjP3PAKazIlVAzaLzzCT8NA"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ca8a1e17-9034-414d-8f37-981082cde13c",
+    "colId": "1f89631d-3339-4c20-9df5-e802b81255d8",
+    "containerId": "",
+    "name": "Cargar usuario",
+    "url": "https://h1zupkj7p6.execute-api.us-west-2.amazonaws.com/dev/users",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2023-05-31T18:29:28.238Z",
+    "modified": "2023-06-01T15:19:18.246Z",
+    "headers": [
+      {
+        "name": "access-token",
+        "value": "eyJraWQiOiIxbFp3dnFBS2paRFowTlpGNit3Z3NRUEFSbmJtZjRybzE2R0laVHRXNHVJPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIyNWM3MDk0NS03MWE0LTQyYzUtYWE2Mi1jZTRmMjcwZmZjN2QiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtd2VzdC0yLmFtYXpvbmF3cy5jb21cL3VzLXdlc3QtMl8wT3lMYmxIUmMiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiIxZW1zbDJsOG84NnFldnA5OXI0aWprcHZrNCIsImV2ZW50X2lkIjoiMTlkYjhjOWItNGU2ZS00MTc3LWJhZWQtMDI1M2RmY2MxNmQ4IiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE2ODU2MzI2MDIsImV4cCI6MTY4NTYzNjIwMiwiaWF0IjoxNjg1NjMyNjAyLCJqdGkiOiJjMWNmYjQ5Yy1lNmZjLTQzMzctOTJiNi1hZWY3ZjYyMmM3OTIiLCJ1c2VybmFtZSI6IjI1YzcwOTQ1LTcxYTQtNDJjNS1hYTYyLWNlNGYyNzBmZmM3ZCJ9.uGcynFtOemooJmaAINEX0zDHQkfbnJR0rXxwf-wMh0Xz3WDXYoEeiiU8SjsMlzaJdJZu0YJOsQcO-ot5VKSpeBgVByJXM23PjZD_HkiEJ0iMtM868XagvZVVuenYsyJ1eRq33wi8ndAj5kCGMf9YkUS49cn8XiVcXGqVKN-GJbxC_o_scBK7rN3Xh55-6mLt99KEUlCtGdzNbrfzWnPm5Iyx4CbhlfuNX1aXTuI2l4ya2CfxAiny7M4cuWN3xgSCFjyRLa_M3walrQYGkz2q6ZCQPzMjcz1inorxZ2IpXReZEfB5nmrNX1F4SRqfKcAjjP3PAKazIlVAzaLzzCT8NA"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\": 4,\n  \"username\": \"rodrigo2\",\n  \"email\": \"rodrigo@gmail.com\",\n  \"urlProfile\": \"algo\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b5ef2ad0-e918-4025-b03e-328d9b0acde3",
+    "colId": "1f89631d-3339-4c20-9df5-e802b81255d8",
+    "containerId": "",
+    "name": "Actualizar usuario",
+    "url": "https://h1zupkj7p6.execute-api.us-west-2.amazonaws.com/dev/users/4",
+    "method": "PUT",
+    "sortNum": 40000,
+    "created": "2023-05-31T18:32:16.774Z",
+    "modified": "2023-06-01T15:20:15.392Z",
+    "headers": [
+      {
+        "name": "access-token",
+        "value": "eyJraWQiOiIxbFp3dnFBS2paRFowTlpGNit3Z3NRUEFSbmJtZjRybzE2R0laVHRXNHVJPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIyNWM3MDk0NS03MWE0LTQyYzUtYWE2Mi1jZTRmMjcwZmZjN2QiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtd2VzdC0yLmFtYXpvbmF3cy5jb21cL3VzLXdlc3QtMl8wT3lMYmxIUmMiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiIxZW1zbDJsOG84NnFldnA5OXI0aWprcHZrNCIsImV2ZW50X2lkIjoiMTlkYjhjOWItNGU2ZS00MTc3LWJhZWQtMDI1M2RmY2MxNmQ4IiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE2ODU2MzI2MDIsImV4cCI6MTY4NTYzNjIwMiwiaWF0IjoxNjg1NjMyNjAyLCJqdGkiOiJjMWNmYjQ5Yy1lNmZjLTQzMzctOTJiNi1hZWY3ZjYyMmM3OTIiLCJ1c2VybmFtZSI6IjI1YzcwOTQ1LTcxYTQtNDJjNS1hYTYyLWNlNGYyNzBmZmM3ZCJ9.uGcynFtOemooJmaAINEX0zDHQkfbnJR0rXxwf-wMh0Xz3WDXYoEeiiU8SjsMlzaJdJZu0YJOsQcO-ot5VKSpeBgVByJXM23PjZD_HkiEJ0iMtM868XagvZVVuenYsyJ1eRq33wi8ndAj5kCGMf9YkUS49cn8XiVcXGqVKN-GJbxC_o_scBK7rN3Xh55-6mLt99KEUlCtGdzNbrfzWnPm5Iyx4CbhlfuNX1aXTuI2l4ya2CfxAiny7M4cuWN3xgSCFjyRLa_M3walrQYGkz2q6ZCQPzMjcz1inorxZ2IpXReZEfB5nmrNX1F4SRqfKcAjjP3PAKazIlVAzaLzzCT8NA"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"rodrigo2\",\n  \"email\": \"rodrigo@gmail.com\",\n  \"urlProfile\": \"url1\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "bf17e70d-fe67-45a2-8b33-5c20cd736eb9",
+    "colId": "1f89631d-3339-4c20-9df5-e802b81255d8",
+    "containerId": "",
+    "name": "Eliminar usuario",
+    "url": "https://h1zupkj7p6.execute-api.us-west-2.amazonaws.com/dev/users/4",
+    "method": "DELETE",
+    "sortNum": 50000,
+    "created": "2023-05-31T18:33:04.070Z",
+    "modified": "2023-06-01T15:20:49.450Z",
+    "headers": [
+      {
+        "name": "access-token",
+        "value": "eyJraWQiOiIxbFp3dnFBS2paRFowTlpGNit3Z3NRUEFSbmJtZjRybzE2R0laVHRXNHVJPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIyNWM3MDk0NS03MWE0LTQyYzUtYWE2Mi1jZTRmMjcwZmZjN2QiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtd2VzdC0yLmFtYXpvbmF3cy5jb21cL3VzLXdlc3QtMl8wT3lMYmxIUmMiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiIxZW1zbDJsOG84NnFldnA5OXI0aWprcHZrNCIsImV2ZW50X2lkIjoiMTlkYjhjOWItNGU2ZS00MTc3LWJhZWQtMDI1M2RmY2MxNmQ4IiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJwaG9uZSBvcGVuaWQgZW1haWwiLCJhdXRoX3RpbWUiOjE2ODU2MzI2MDIsImV4cCI6MTY4NTYzNjIwMiwiaWF0IjoxNjg1NjMyNjAyLCJqdGkiOiJjMWNmYjQ5Yy1lNmZjLTQzMzctOTJiNi1hZWY3ZjYyMmM3OTIiLCJ1c2VybmFtZSI6IjI1YzcwOTQ1LTcxYTQtNDJjNS1hYTYyLWNlNGYyNzBmZmM3ZCJ9.uGcynFtOemooJmaAINEX0zDHQkfbnJR0rXxwf-wMh0Xz3WDXYoEeiiU8SjsMlzaJdJZu0YJOsQcO-ot5VKSpeBgVByJXM23PjZD_HkiEJ0iMtM868XagvZVVuenYsyJ1eRq33wi8ndAj5kCGMf9YkUS49cn8XiVcXGqVKN-GJbxC_o_scBK7rN3Xh55-6mLt99KEUlCtGdzNbrfzWnPm5Iyx4CbhlfuNX1aXTuI2l4ya2CfxAiny7M4cuWN3xgSCFjyRLa_M3walrQYGkz2q6ZCQPzMjcz1inorxZ2IpXReZEfB5nmrNX1F4SRqfKcAjjP3PAKazIlVAzaLzzCT8NA"
+      }
+    ],
+    "params": [],
+    "tests": []
+  }
+]

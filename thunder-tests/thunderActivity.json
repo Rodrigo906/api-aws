@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "9b7e213d-ce68-46f4-b0c6-7daec252550c",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://www.thunderclient.com/welcome",
+    "url": "https://www.thunderclient.com/welcome",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-05-31T18:23:54.896Z",
+    "modified": "2023-05-31T18:23:54.896Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "259077ff-b69b-45ff-8ec2-c7b3a5379933",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://h1zupkj7p6.execute-api.us-west-2.amazonaws.com/dev/users/1",
+    "url": "https://h1zupkj7p6.execute-api.us-west-2.amazonaws.com/dev/users/1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-05-31T18:28:09.265Z",
+    "modified": "2023-05-31T18:28:09.265Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f788281f-19b8-4b39-87b2-afe1e5fb210e",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://h1zupkj7p6.execute-api.us-west-2.amazonaws.com/dev/users",
+    "url": "https://h1zupkj7p6.execute-api.us-west-2.amazonaws.com/dev/users",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-05-31T18:29:10.637Z",
+    "modified": "2023-05-31T18:29:10.637Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\r\n  \"id\": 4,\r\n  \"username\": \"rodrigo2\",\r\n  \"email\": \"rodrigo@gmail.com\",\r\n  \"urlProfile\": \"algo\"\r\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "61de9802-b2b3-4b7a-85cf-5c9b440451a2",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://h1zupkj7p6.execute-api.us-west-2.amazonaws.com/dev/users/4",
+    "url": "https://h1zupkj7p6.execute-api.us-west-2.amazonaws.com/dev/users/4",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2023-05-31T18:31:36.996Z",
+    "modified": "2023-05-31T18:31:36.996Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\r\n  \"username\": \"rodrigo2\",\r\n  \"email\": \"rodrigo@gmail.com\",\r\n  \"urlProfile\": \"url1\"\r\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b5a8eb90-4495-49f0-add8-c4752754caba",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://h1zupkj7p6.execute-api.us-west-2.amazonaws.com/dev/users/4",
+    "url": "https://h1zupkj7p6.execute-api.us-west-2.amazonaws.com/dev/users/4",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2023-05-31T18:32:50.254Z",
+    "modified": "2023-05-31T18:32:50.254Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
